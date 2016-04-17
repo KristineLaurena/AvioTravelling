@@ -1,0 +1,55 @@
+﻿@{
+    Layout = null;
+}
+<div class="modal-dialog" role="document" id="newCountry">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Add New Country</h4>
+        </div>
+        <div class="modal-body" data-bind="with: Record">
+            <form>
+                <label>Country</label>
+                <input type="text" placeholder="Please Enter Name" class="form-control" data-bind="value: Name" />
+                <label>Climate</label>
+                <select data-bind="value: Climate" class="form-control">
+                    <option value="" disabled selected>Select your option</option>
+                    <option value="Hot">Hot</option>
+                    <option value="Cold">Cold</option>
+                    <option value="Normal">Normal</option>
+                </select>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-bind="click: close">Close</button>
+            <button type="button" class="btn btn-primary" data-bind="click: saveRec">Save changes</button>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var mViewModel = function () {
+        var self = this;
+
+        var saverecord = "saverecord";
+
+        self.Record = ko.observable();
+
+        self.refresh = function () {
+            App.LoadData("@this.GeoApiUrl("Country")", true, self.Record, { id: "@ViewBag.EntityId" });
+        }
+
+        self.close = function () {
+            $('#modalPlaceholder').modal('hide');
+        };
+
+        self.saveRec = function () {
+            App.PostData("@this.GeoApiUrl("UpdateCountry")", self.Record, saverecord, true);
+        };
+
+        self.refresh();
+    };
+
+    ko.applyBindings(new mViewModel(), $('#newCountry')[0]);
+</script>
+
