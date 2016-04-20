@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>Index</title>
+  <meta content="text/html; charset=utf-8" http-equiv="content-type">
+	<style>
+		html,body {
+			margin: 0; padding: 0px;
+			height:100%; 
+			min-height:100%;
+			background-color: rgb(233,232,220);
+			font-family: Verdana, Arial, Helvetica, sans-serif;
+			font-style: normal;
+			font-weight: normal;
+			color: black;
+		}
+
+		body {font-size:75%;position:relative; margin-top:-1px; border-style: solid solid solid solid;	border-color: rgb(172,168,153);	border-width: 0px 0px 1px 0px;}
+		a { text-decoration:none; color:#06c }
+		form {padding:5px; margin:0px;}
+	</style>
+</head>
+<body style="direction: ltr;">
+	<form>
+	Look for:<br /><input style="width:100%" onKeyDown="check_input(this.value,get_match)" onKeyUp="check_input(this.value,get_match)"/>
+	</form>
+
+	<script>
+		var words = new Array(
+"About Method","AccountController  Constructor","AccountController (ApplicationUserManager, ApplicationSignInManager) Constructor","AccountController Class","AddPhoneNumber  Method","AddPhoneNumber (AddPhoneNumberViewModel) Method","AddPhoneNumberViewModel Class","ApplicationDbContext Class","ApplicationDbContext Constructor","ApplicationSignInManager Class","ApplicationSignInManager Constructor","ApplicationUser Class","ApplicationUserManager Class","ApplicationUserManager Constructor","Application_Start Method","AvioTravelling Namespace","AvioTravelling Reference","AvioTravelling.Api Namespace","AvioTravelling.Controllers Namespace","AvioTravelling.Models Namespace","AvioTravelling.Validation Namespace","BrowserRemembered Property","BundleConfig Class","CalculateTotal Method","ChangePassword  Method","ChangePassword (ChangePasswordViewModel) Method","ChangePasswordViewModel Class","Cites Method","Cities Method","City Class","City Constructor {AvioTravelling.Models.City}","City Method {AvioTravelling.Api.GeoController}","City Property","CityValidator Class","CityValidator Constructor","Climate Property","Code Property {AvioTravelling.Models.ResetPasswordViewModel}","Code Property {AvioTravelling.Models.VerifyCodeViewModel}","Code Property {AvioTravelling.Models.VerifyPhoneNumberViewModel}","Configuration Method","ConfigureAuth Method","ConfigureTwoFactorViewModel Class","ConfirmEmail Method","ConfirmPassword Property {AvioTravelling.Models.ChangePasswordViewModel}","ConfirmPassword Property {AvioTravelling.Models.RegisterViewModel}","ConfirmPassword Property {AvioTravelling.Models.ResetPasswordViewModel}","ConfirmPassword Property {AvioTravelling.Models.SetPasswordViewModel}","Contact Method","Countries Method {AvioTravelling.Api.GeoController}","Countries Method {AvioTravelling.Controllers.GeoController}","Country Class","Country Method","Country Property {AvioTravelling.Models.City}","Country Property {AvioTravelling.Models.Tour}","CountryModel Method","CountryValidator Class","CountryValidator Constructor","Create Method {AvioTravelling.ApplicationSignInManager}","Create Method {AvioTravelling.ApplicationUserManager}","Create Method {AvioTravelling.Models.ApplicationDbContext}","CreateUserIdentityAsync Method","CurrentLogins Property","Customer Property","Database Class","DateFrom Property","DateTo Property","DeleteCity Method","DeleteCountry Method","DeleteShowPlace Method","Description Property {AvioTravelling.Models.City}","Description Property {AvioTravelling.Models.Showplace}","Description Property {AvioTravelling.Models.Tour}","DisableTwoFactorAuthentication Method","Dispose Method {AvioTravelling.Controllers.AccountController}","Dispose Method {AvioTravelling.Controllers.ManageController}","EditCity Method","EditCountry Method","EditShowplace Method","Email Property {AvioTravelling.Models.ExternalLoginConfirmationViewModel}","Email Property {AvioTravelling.Models.ForgotPasswordViewModel}","Email Property {AvioTravelling.Models.ForgotViewModel}","Email Property {AvioTravelling.Models.LoginViewModel}","Email Property {AvioTravelling.Models.RegisterViewModel}","Email Property {AvioTravelling.Models.ResetPasswordViewModel}","EmailService Class","EnableTwoFactorAuthentication Method","Error Class","ErrorHandlingAttribute Class","Errors Property","ExternalLogin Method","ExternalLoginCallback Method","ExternalLoginConfirmation Method","ExternalLoginConfirmationViewModel Class","ExternalLoginFailure Method","ExternalLoginListViewModel Class","FactorViewModel Class","FilterConfig Class","ForgotPassword  Method","ForgotPassword (ForgotPasswordViewModel) Method","ForgotPasswordConfirmation Method","ForgotPasswordViewModel Class","ForgotViewModel Class","From Property","GenerateUserIdentityAsync Method","GeoApiUrl Method","GeoController Class {AvioTravelling.Api}","GeoController Class {AvioTravelling.Controllers}","GeoHtmlUrl Method","HasPassword Property","HomeController Class","HtmlHelper Class","Id Property {AvioTravelling.Models.ModelBase}","Id Property {AvioTravelling.Models.Order}","Id Property {AvioTravelling.Validation.Error}","Ids Property","Index Method {AvioTravelling.Controllers.HomeController}","Index Method {AvioTravelling.Controllers.ManageController}","IndexViewModel Class","InsertCity Method","InsertCountry Method","Length Property","LinkLogin Method","LinkLoginCallback Method","LogOff Method","Login (LoginViewModel, String) Method","Login (String) Method","LoginViewModel Class","Logins Property","LongDescription Property","ManageController  Constructor","ManageController (ApplicationUserManager, ApplicationSignInManager) Constructor","ManageController Class","ManageLogins Method","ManageLoginsViewModel Class","ManageMessageId Enumeration","ModelBase Class","MvcApplication Class","Name Property","NewCity Method","NewCityModel Method","NewConnection Method","NewCountry Method","NewPassword Property {AvioTravelling.Models.ChangePasswordViewModel}","NewPassword Property {AvioTravelling.Models.SetPasswordViewModel}","NewShowplaceModel Method","Number Property","OldPassword Property","OnException Method","Order Class","Orders Method","OrdersController Class","OtherLogins Property","Password Property {AvioTravelling.Models.LoginViewModel}","Password Property {AvioTravelling.Models.RegisterViewModel}","Password Property {AvioTravelling.Models.ResetPasswordViewModel}","PhoneNumber Property {AvioTravelling.Models.IndexViewModel}","PhoneNumber Property {AvioTravelling.Models.VerifyPhoneNumberViewModel}","PictureLink Property {AvioTravelling.Models.City}","PictureLink Property {AvioTravelling.Models.Showplace}","Price Property","PricePerDay Property","Provider Property","Providers Property {AvioTravelling.Models.ConfigureTwoFactorViewModel}","Providers Property {AvioTravelling.Models.SendCodeViewModel}","Purpose Property","RecordIds Class","Register  Method {AvioTravelling.Controllers.AccountController}","Register (RegisterViewModel) Method {AvioTravelling.Controllers.AccountController}","Register Method {AvioTravelling.WebApiConfig}","RegisterBundles Method","RegisterGlobalFilters Method","RegisterRoutes Method","RegisterViewModel Class","RememberBrowser Property","RememberMe Property {AvioTravelling.Models.LoginViewModel}","RememberMe Property {AvioTravelling.Models.SendCodeViewModel}","RememberMe Property {AvioTravelling.Models.VerifyCodeViewModel}","RemoveLogin Method","RemovePhoneNumber Method","ResetPassword (ResetPasswordViewModel) Method","ResetPassword (String) Method","ResetPasswordConfirmation Method","ResetPasswordViewModel Class","ReturnUrl Property {AvioTravelling.Models.ExternalLoginListViewModel}","ReturnUrl Property {AvioTravelling.Models.SendCodeViewModel}","ReturnUrl Property {AvioTravelling.Models.VerifyCodeViewModel}","RouteConfig Class","SelectedProvider Property {AvioTravelling.Models.ConfigureTwoFactorViewModel}","SelectedProvider Property {AvioTravelling.Models.SendCodeViewModel}","SendAsync Method {AvioTravelling.EmailService}","SendAsync Method {AvioTravelling.SmsService}","SendCode (SendCodeViewModel) Method","SendCode (String, Boolean) Method","SendCodeViewModel Class","SetPassword  Method","SetPassword (SetPasswordViewModel) Method","SetPasswordViewModel Class","Showplace Class","Showplace Method","ShowplaceValidator Class","ShowplaceValidator Constructor","Showplaces Method {AvioTravelling.Api.GeoController}","Showplaces Method {AvioTravelling.Controllers.GeoController}","Showplaces Property","SignInManager Property {AvioTravelling.Controllers.AccountController}","SignInManager Property {AvioTravelling.Controllers.ManageController}","SmsService Class","Startup Class","Text Property","To Property","Total Property","Tour Class","TwoFactor Property","UpdateCity Method","UpdateCountry Method","UpdateShowplace Method","UserManager Property {AvioTravelling.Controllers.AccountController}","UserManager Property {AvioTravelling.Controllers.ManageController}","Validate&lt;T&gt; Method","ValidationException Class","ValidationException Constructor","ValidationExtensions Class","Validators Class","VerifyCode (String, String, Boolean) Method","VerifyCode (VerifyCodeViewModel) Method","VerifyCodeViewModel Class","VerifyPhoneNumber (String) Method","VerifyPhoneNumber (VerifyPhoneNumberViewModel) Method","VerifyPhoneNumberViewModel Class","WebApiConfig Class"
+		);
+		
+		
+		var oldHighlight = 0;
+		var oldKey = "";
+		
+		function get_match(text) {
+		    var ltext = text.toLowerCase();
+		    for(i in words) {
+		        if(words[i].toLowerCase().indexOf(ltext) == "0") {
+		            return words[i];
+		        }
+		    }
+		    return "";
+		}
+		
+		function highlight(keyword) {
+		    if(oldHighlight) oldHighlight.className = "";
+		    var el = parent.frames['zindex'].document.getElementById("w_"+keyword);
+		    el.className="highlighted";
+		    oldHighlight = el;
+		}
+		
+		function check_input(text, matchfun) {
+		    if(text!=oldKey) {
+		        var keyword = matchfun(text);
+		        if(keyword) {       
+		            highlight(keyword);
+		            parent.frames['zindex'].document.getElementById('w_'+keyword).scrollIntoView();
+		        }
+		        oldKey = text;
+		    }
+		}
+	</script>
+</body>
+</html>
+

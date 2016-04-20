@@ -5,7 +5,7 @@ using System.Web;
 
 namespace AvioTravelling.Models
 {
-    public abstract class ModelBase
+    public class ModelBase
     {
         public string Id { get; set; }
         public string Name { get; set; }

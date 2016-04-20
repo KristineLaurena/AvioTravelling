@@ -1,0 +1,75 @@
+﻿@{
+    ViewBag.Title = "Worlds Best Air Flight Company";
+}
+<section class="content-header">
+    <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li class="active">Dashboard</li>
+    </ol>
+</section>
+<section class="content" id="showplacesView">
+    <div class="row">
+        <div class="col-md-12">
+            <button class="btn btn-info" data-bind="click: NewCity">Create</button>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                       
+                    </tr>
+                </thead>
+                <tbody data-bind="foreach: Rows">
+                    <tr>
+                        <td data-bind="text: Id"></td>
+                        <td><a data-bind="text: !!Name() > 0 ? Name() : 'Edit Showplace', click: navigate.bind($data, Id) " href="#"></a></td>
+                        <td data-bind="text: Description"></td>
+                     
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+@section Scripts{
+    <script type="text/javascript">
+        var viewModel = function () {
+            self = this;
+
+            self.Rows = ko.observableArray();
+
+            self.refresh = function () {
+                App.LoadData("@this.GeoApiUrl("Showplaces")", false, self.ApplyNewData);
+            }
+
+            self.navigate = function(elementId){
+                App.Navigate("@this.GeoHtmlUrl("EditShowplace")", { id: elementId() });
+            }
+
+            self.NewCity = function () {
+                App.LoadData("@this.GeoApiUrl("NewShowplaceModel")", false, function (newId) { App.Navigate("@this.GeoHtmlUrl("EditShowplace")", {id: newId}); }, null);
+            };
+
+            self.ApplyNewData = function (newData) {
+                self.Rows.removeAll();
+
+                $.each(newData, function (idx, line) {
+                    self.Rows.push(ko.mapping.fromJS(line));
+                });
+            }
+
+
+            $(document).on("recordUpdated", function () {
+                $('#modalPlaceholder').modal('hide');
+                self.refresh();
+            });
+
+            self.refresh();
+        }
+
+        ko.applyBindings(viewModel, $('#showplacesView')[0]);
+    </script>
+}
+

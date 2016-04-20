@@ -8,25 +8,15 @@ namespace AvioTravelling.Controllers
 {
     public class GeoController : Controller
     {
-        // GET: Geo
-        //public ActionResult Countries()
-        //{
-        //    return View();
-        //}
-
-        public ActionResult Cites()
-        {
-            return View();
-        }
-
-        //public ActionResult AddCity()
-        //{
-        //    return View();
-        //}
-
+        //Geo/EdiCIty?Id=1234
         public ActionResult EditCity(string Id)
         {
             ViewBag.EntityId = Id;
+            return View();
+        }
+
+        public ActionResult Cites()
+        {
             return View();
         }
 

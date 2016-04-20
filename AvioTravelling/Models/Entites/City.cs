@@ -10,7 +10,7 @@ namespace AvioTravelling.Models
         public string PictureLink { get; set; }
         public Country Country { get; set; }
         public List<Showplace> Showplaces { get; set; }
-        public string Description { get; set; }
+        public string Description { get; set; } 
 
         public decimal PricePerDay { get; set; }
 

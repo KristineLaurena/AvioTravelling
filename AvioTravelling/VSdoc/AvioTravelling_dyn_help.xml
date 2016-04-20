@@ -1,0 +1,2285 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DynamicHelp xmlns="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd" xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance" xsi:schemaLocation="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd">	
+   <LINKGROUP ID="AvioTravelling" Title="AvioTravelling Reference Help" Priority="2100">
+      <GLYPH Expanded="vs:/ctxhelp_show.gif" Collapsed="vs:/ctxhelp_hide.gif"/>
+   </LINKGROUP>
+
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.HomeController.About" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000004F.html" LinkGroup="AvioTravelling">About Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.AccountController.AccountController" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000002C_overloads--.html" LinkGroup="AvioTravelling">AccountController </LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.AccountController.AccountController" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000002D_overloads--.html" LinkGroup="AvioTravelling">AccountController </LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.AccountController" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000002B.html" LinkGroup="AvioTravelling">AccountController Class</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.ManageController.AddPhoneNumber" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000058_overloads--.html" LinkGroup="AvioTravelling">AddPhoneNumber Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.ManageController.AddPhoneNumber" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000059_overloads--.html" LinkGroup="AvioTravelling">AddPhoneNumber Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.AddPhoneNumberViewModel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000C7.html" LinkGroup="AvioTravelling">AddPhoneNumberViewModel Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.ApplicationDbContext" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000B2.html" LinkGroup="AvioTravelling">ApplicationDbContext Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.ApplicationDbContext.ApplicationDbContext" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000B3.html" LinkGroup="AvioTravelling">ApplicationDbContext Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.ApplicationSignInManager" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000020.html" LinkGroup="AvioTravelling">ApplicationSignInManager Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.ApplicationSignInManager.ApplicationSignInManager" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000021.html" LinkGroup="AvioTravelling">ApplicationSignInManager Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.ApplicationUser" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000B0.html" LinkGroup="AvioTravelling">ApplicationUser Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.ApplicationUserManager" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000001D.html" LinkGroup="AvioTravelling">ApplicationUserManager Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.ApplicationUserManager.ApplicationUserManager" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000001E.html" LinkGroup="AvioTravelling">ApplicationUserManager Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.MvcApplication.Application_Start" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000076.html" LinkGroup="AvioTravelling">Application_Start Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000014.html" LinkGroup="AvioTravelling">AvioTravelling Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling Reference" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000EC.html" LinkGroup="AvioTravelling">AvioTravelling Reference</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Api" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000000.html" LinkGroup="AvioTravelling">AvioTravelling.Api Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000002A.html" LinkGroup="AvioTravelling">AvioTravelling.Controllers Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000007A.html" LinkGroup="AvioTravelling">AvioTravelling.Models Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Validation" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000DC.html" LinkGroup="AvioTravelling">AvioTravelling.Validation Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.IndexViewModel.BrowserRemembered" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000BA.html" LinkGroup="AvioTravelling">BrowserRemembered Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.BundleConfig" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000015.html" LinkGroup="AvioTravelling">BundleConfig Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.Order.CalculateTotal" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000AF.html" LinkGroup="AvioTravelling">CalculateTotal Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.ManageController.ChangePassword" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000005F_overloads--.html" LinkGroup="AvioTravelling">ChangePassword Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.ManageController.ChangePassword" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000060_overloads--.html" LinkGroup="AvioTravelling">ChangePassword Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.ChangePasswordViewModel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000C3.html" LinkGroup="AvioTravelling">ChangePasswordViewModel Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.GeoController.Cites" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000046.html" LinkGroup="AvioTravelling">Cites Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Api.GeoController.Cities" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000002.html" LinkGroup="AvioTravelling">Cities Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.City" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000009F.html" LinkGroup="AvioTravelling">City Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.City.City" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000A5.html" LinkGroup="AvioTravelling">City Constructor {AvioTravelling.Models.City}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Api.GeoController.City" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000003.html" LinkGroup="AvioTravelling">City Method {AvioTravelling.Api.GeoController}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.Order.City" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000AE.html" LinkGroup="AvioTravelling">City Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Validation.Validators.CityValidator" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000E8.html" LinkGroup="AvioTravelling">CityValidator Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Validation.Validators.CityValidator.CityValidator" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000E9.html" LinkGroup="AvioTravelling">CityValidator Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.Country.Climate" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000A7.html" LinkGroup="AvioTravelling">Climate Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.ResetPasswordViewModel.Code" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000098.html" LinkGroup="AvioTravelling">Code Property {AvioTravelling.Models.ResetPasswordViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.VerifyCodeViewModel.Code" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000086.html" LinkGroup="AvioTravelling">Code Property {AvioTravelling.Models.VerifyCodeViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.VerifyPhoneNumberViewModel.Code" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000CA.html" LinkGroup="AvioTravelling">Code Property {AvioTravelling.Models.VerifyPhoneNumberViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Startup.Configuration" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000DB.html" LinkGroup="AvioTravelling">Configuration Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Startup.ConfigureAuth" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000027.html" LinkGroup="AvioTravelling">ConfigureAuth Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.ConfigureTwoFactorViewModel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000CC.html" LinkGroup="AvioTravelling">ConfigureTwoFactorViewModel Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.AccountController.ConfirmEmail" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000036.html" LinkGroup="AvioTravelling">ConfirmEmail Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.ChangePasswordViewModel.ConfirmPassword" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000C6.html" LinkGroup="AvioTravelling">ConfirmPassword Property {AvioTravelling.Models.ChangePasswordViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.RegisterViewModel.ConfirmPassword" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000093.html" LinkGroup="AvioTravelling">ConfirmPassword Property {AvioTravelling.Models.RegisterViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.ResetPasswordViewModel.ConfirmPassword" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000097.html" LinkGroup="AvioTravelling">ConfirmPassword Property {AvioTravelling.Models.ResetPasswordViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.SetPasswordViewModel.ConfirmPassword" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000C2.html" LinkGroup="AvioTravelling">ConfirmPassword Property {AvioTravelling.Models.SetPasswordViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.HomeController.Contact" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000050.html" LinkGroup="AvioTravelling">Contact Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Api.GeoController.Countries" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000009.html" LinkGroup="AvioTravelling">Countries Method {AvioTravelling.Api.GeoController}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.GeoController.Countries" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000004A.html" LinkGroup="AvioTravelling">Countries Method {AvioTravelling.Controllers.GeoController}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.Country" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000A6.html" LinkGroup="AvioTravelling">Country Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Api.GeoController.Country" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000000D.html" LinkGroup="AvioTravelling">Country Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.City.Country" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000A1.html" LinkGroup="AvioTravelling">Country Property {AvioTravelling.Models.City}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.Tour.Country" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000D7.html" LinkGroup="AvioTravelling">Country Property {AvioTravelling.Models.Tour}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Api.GeoController.CountryModel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000000A.html" LinkGroup="AvioTravelling">CountryModel Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Validation.Validators.CountryValidator" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000E6.html" LinkGroup="AvioTravelling">CountryValidator Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Validation.Validators.CountryValidator.CountryValidator" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000E7.html" LinkGroup="AvioTravelling">CountryValidator Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.ApplicationSignInManager.Create" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000023.html" LinkGroup="AvioTravelling">Create Method {AvioTravelling.ApplicationSignInManager}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.ApplicationUserManager.Create" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000001F.html" LinkGroup="AvioTravelling">Create Method {AvioTravelling.ApplicationUserManager}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.ApplicationDbContext.Create" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000B4.html" LinkGroup="AvioTravelling">Create Method {AvioTravelling.Models.ApplicationDbContext}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.ApplicationSignInManager.CreateUserIdentityAsync" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000022.html" LinkGroup="AvioTravelling">CreateUserIdentityAsync Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.ManageLoginsViewModel.CurrentLogins" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000BC.html" LinkGroup="AvioTravelling">CurrentLogins Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.Order.Customer" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000AA.html" LinkGroup="AvioTravelling">Customer Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Database" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000071.html" LinkGroup="AvioTravelling">Database Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.Tour.DateFrom" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000D5.html" LinkGroup="AvioTravelling">DateFrom Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.Tour.DateTo" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000D6.html" LinkGroup="AvioTravelling">DateTo Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Api.GeoController.DeleteCity" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000008.html" LinkGroup="AvioTravelling">DeleteCity Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Api.GeoController.DeleteCountry" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000000E.html" LinkGroup="AvioTravelling">DeleteCountry Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Api.GeoController.DeleteShowPlace" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000013.html" LinkGroup="AvioTravelling">DeleteShowPlace Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.City.Description" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000A3.html" LinkGroup="AvioTravelling">Description Property {AvioTravelling.Models.City}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.Showplace.Description" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000009D.html" LinkGroup="AvioTravelling">Description Property {AvioTravelling.Models.Showplace}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.Tour.Description" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000D8.html" LinkGroup="AvioTravelling">Description Property {AvioTravelling.Models.Tour}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.ManageController.DisableTwoFactorAuthentication" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000005B.html" LinkGroup="AvioTravelling">DisableTwoFactorAuthentication Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.AccountController.Dispose" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000044.html" LinkGroup="AvioTravelling">Dispose Method {AvioTravelling.Controllers.AccountController}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.ManageController.Dispose" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000066.html" LinkGroup="AvioTravelling">Dispose Method {AvioTravelling.Controllers.ManageController}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.GeoController.EditCity" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000047.html" LinkGroup="AvioTravelling">EditCity Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.GeoController.EditCountry" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000004C.html" LinkGroup="AvioTravelling">EditCountry Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.GeoController.EditShowplace" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000049.html" LinkGroup="AvioTravelling">EditShowplace Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.ExternalLoginConfirmationViewModel.Email" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000007C.html" LinkGroup="AvioTravelling">Email Property {AvioTravelling.Models.ExternalLoginConfirmationViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.ForgotPasswordViewModel.Email" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000009A.html" LinkGroup="AvioTravelling">Email Property {AvioTravelling.Models.ForgotPasswordViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.ForgotViewModel.Email" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000008B.html" LinkGroup="AvioTravelling">Email Property {AvioTravelling.Models.ForgotViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.LoginViewModel.Email" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000008D.html" LinkGroup="AvioTravelling">Email Property {AvioTravelling.Models.LoginViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.RegisterViewModel.Email" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000091.html" LinkGroup="AvioTravelling">Email Property {AvioTravelling.Models.RegisterViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.ResetPasswordViewModel.Email" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000095.html" LinkGroup="AvioTravelling">Email Property {AvioTravelling.Models.ResetPasswordViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.EmailService" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000019.html" LinkGroup="AvioTravelling">EmailService Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.ManageController.EnableTwoFactorAuthentication" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000005A.html" LinkGroup="AvioTravelling">EnableTwoFactorAuthentication Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Validation.Error" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000E0.html" LinkGroup="AvioTravelling">Error Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.ErrorHandlingAttribute" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000073.html" LinkGroup="AvioTravelling">ErrorHandlingAttribute Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Validation.ValidationException.Errors" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000DE.html" LinkGroup="AvioTravelling">Errors Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.AccountController.ExternalLogin" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000003D.html" LinkGroup="AvioTravelling">ExternalLogin Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.AccountController.ExternalLoginCallback" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000040.html" LinkGroup="AvioTravelling">ExternalLoginCallback Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.AccountController.ExternalLoginConfirmation" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000041.html" LinkGroup="AvioTravelling">ExternalLoginConfirmation Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.ExternalLoginConfirmationViewModel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000007B.html" LinkGroup="AvioTravelling">ExternalLoginConfirmationViewModel Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.AccountController.ExternalLoginFailure" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000043.html" LinkGroup="AvioTravelling">ExternalLoginFailure Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.ExternalLoginListViewModel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000007D.html" LinkGroup="AvioTravelling">ExternalLoginListViewModel Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.FactorViewModel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000BE.html" LinkGroup="AvioTravelling">FactorViewModel Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.FilterConfig" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000017.html" LinkGroup="AvioTravelling">FilterConfig Class</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.AccountController.ForgotPassword" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000037_overloads--.html" LinkGroup="AvioTravelling">ForgotPassword Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.AccountController.ForgotPassword" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000038_overloads--.html" LinkGroup="AvioTravelling">ForgotPassword Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.AccountController.ForgotPasswordConfirmation" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000039.html" LinkGroup="AvioTravelling">ForgotPasswordConfirmation Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.ForgotPasswordViewModel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000099.html" LinkGroup="AvioTravelling">ForgotPasswordViewModel Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.ForgotViewModel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000008A.html" LinkGroup="AvioTravelling">ForgotViewModel Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.Order.From" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000AC.html" LinkGroup="AvioTravelling">From Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.ApplicationUser.GenerateUserIdentityAsync" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000B1.html" LinkGroup="AvioTravelling">GenerateUserIdentityAsync Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.HtmlHelper.GeoApiUrl" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000078.html" LinkGroup="AvioTravelling">GeoApiUrl Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Api.GeoController" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000001.html" LinkGroup="AvioTravelling">GeoController Class {AvioTravelling.Api}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.GeoController" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000045.html" LinkGroup="AvioTravelling">GeoController Class {AvioTravelling.Controllers}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.HtmlHelper.GeoHtmlUrl" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000079.html" LinkGroup="AvioTravelling">GeoHtmlUrl Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.IndexViewModel.HasPassword" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000B6.html" LinkGroup="AvioTravelling">HasPassword Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.HomeController" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000004D.html" LinkGroup="AvioTravelling">HomeController Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.HtmlHelper" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000077.html" LinkGroup="AvioTravelling">HtmlHelper Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.ModelBase.Id" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000D0.html" LinkGroup="AvioTravelling">Id Property {AvioTravelling.Models.ModelBase}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.Order.Id" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000A9.html" LinkGroup="AvioTravelling">Id Property {AvioTravelling.Models.Order}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Validation.Error.Id" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000E2.html" LinkGroup="AvioTravelling">Id Property {AvioTravelling.Validation.Error}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.RecordIds.Ids" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000D3.html" LinkGroup="AvioTravelling">Ids Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.HomeController.Index" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000004E.html" LinkGroup="AvioTravelling">Index Method {AvioTravelling.Controllers.HomeController}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.ManageController.Index" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000056.html" LinkGroup="AvioTravelling">Index Method {AvioTravelling.Controllers.ManageController}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.IndexViewModel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000B5.html" LinkGroup="AvioTravelling">IndexViewModel Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Api.GeoController.InsertCity" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000005.html" LinkGroup="AvioTravelling">InsertCity Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Api.GeoController.InsertCountry" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000000B.html" LinkGroup="AvioTravelling">InsertCountry Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.Tour.Length" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000DA.html" LinkGroup="AvioTravelling">Length Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.ManageController.LinkLogin" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000064.html" LinkGroup="AvioTravelling">LinkLogin Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.ManageController.LinkLoginCallback" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000065.html" LinkGroup="AvioTravelling">LinkLoginCallback Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.AccountController.LogOff" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000042.html" LinkGroup="AvioTravelling">LogOff Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.AccountController.Login" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000031_overloads--.html" LinkGroup="AvioTravelling">Login Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.AccountController.Login" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000030_overloads--.html" LinkGroup="AvioTravelling">Login Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.LoginViewModel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000008C.html" LinkGroup="AvioTravelling">LoginViewModel Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.IndexViewModel.Logins" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000B7.html" LinkGroup="AvioTravelling">Logins Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.Showplace.LongDescription" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000009C.html" LinkGroup="AvioTravelling">LongDescription Property</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.ManageController.ManageController" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000052_overloads--.html" LinkGroup="AvioTravelling">ManageController </LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.ManageController.ManageController" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000053_overloads--.html" LinkGroup="AvioTravelling">ManageController </LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.ManageController" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000051.html" LinkGroup="AvioTravelling">ManageController Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.ManageController.ManageLogins" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000063.html" LinkGroup="AvioTravelling">ManageLogins Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.ManageLoginsViewModel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000BB.html" LinkGroup="AvioTravelling">ManageLoginsViewModel Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.ManageController.ManageMessageId" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000067.html" LinkGroup="AvioTravelling">ManageMessageId Enumeration</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.ModelBase" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000CF.html" LinkGroup="AvioTravelling">ModelBase Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.MvcApplication" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000075.html" LinkGroup="AvioTravelling">MvcApplication Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.ModelBase.Name" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000D1.html" LinkGroup="AvioTravelling">Name Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Api.GeoController.NewCity" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000007.html" LinkGroup="AvioTravelling">NewCity Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Api.GeoController.NewCityModel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000004.html" LinkGroup="AvioTravelling">NewCityModel Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Database.NewConnection" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000072.html" LinkGroup="AvioTravelling">NewConnection Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.GeoController.NewCountry" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000004B.html" LinkGroup="AvioTravelling">NewCountry Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.ChangePasswordViewModel.NewPassword" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000C5.html" LinkGroup="AvioTravelling">NewPassword Property {AvioTravelling.Models.ChangePasswordViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.SetPasswordViewModel.NewPassword" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000C1.html" LinkGroup="AvioTravelling">NewPassword Property {AvioTravelling.Models.SetPasswordViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Api.GeoController.NewShowplaceModel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000011.html" LinkGroup="AvioTravelling">NewShowplaceModel Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.AddPhoneNumberViewModel.Number" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000C8.html" LinkGroup="AvioTravelling">Number Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.ChangePasswordViewModel.OldPassword" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000C4.html" LinkGroup="AvioTravelling">OldPassword Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.ErrorHandlingAttribute.OnException" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000074.html" LinkGroup="AvioTravelling">OnException Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.Order" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000A8.html" LinkGroup="AvioTravelling">Order Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.OrdersController.Orders" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000070.html" LinkGroup="AvioTravelling">Orders Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.OrdersController" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000006F.html" LinkGroup="AvioTravelling">OrdersController Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.ManageLoginsViewModel.OtherLogins" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000BD.html" LinkGroup="AvioTravelling">OtherLogins Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.LoginViewModel.Password" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000008E.html" LinkGroup="AvioTravelling">Password Property {AvioTravelling.Models.LoginViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.RegisterViewModel.Password" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000092.html" LinkGroup="AvioTravelling">Password Property {AvioTravelling.Models.RegisterViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.ResetPasswordViewModel.Password" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000096.html" LinkGroup="AvioTravelling">Password Property {AvioTravelling.Models.ResetPasswordViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.IndexViewModel.PhoneNumber" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000B8.html" LinkGroup="AvioTravelling">PhoneNumber Property {AvioTravelling.Models.IndexViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.VerifyPhoneNumberViewModel.PhoneNumber" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000CB.html" LinkGroup="AvioTravelling">PhoneNumber Property {AvioTravelling.Models.VerifyPhoneNumberViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.City.PictureLink" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000A0.html" LinkGroup="AvioTravelling">PictureLink Property {AvioTravelling.Models.City}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.Showplace.PictureLink" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000009E.html" LinkGroup="AvioTravelling">PictureLink Property {AvioTravelling.Models.Showplace}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.Tour.Price" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000D9.html" LinkGroup="AvioTravelling">Price Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.City.PricePerDay" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000A4.html" LinkGroup="AvioTravelling">PricePerDay Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.VerifyCodeViewModel.Provider" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000085.html" LinkGroup="AvioTravelling">Provider Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.ConfigureTwoFactorViewModel.Providers" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000CE.html" LinkGroup="AvioTravelling">Providers Property {AvioTravelling.Models.ConfigureTwoFactorViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.SendCodeViewModel.Providers" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000081.html" LinkGroup="AvioTravelling">Providers Property {AvioTravelling.Models.SendCodeViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.FactorViewModel.Purpose" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000BF.html" LinkGroup="AvioTravelling">Purpose Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.RecordIds" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000D2.html" LinkGroup="AvioTravelling">RecordIds Class</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.AccountController.Register" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000034_overloads--.html" LinkGroup="AvioTravelling">Register Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.AccountController.Register" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000035_overloads--.html" LinkGroup="AvioTravelling">Register Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.WebApiConfig.Register" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000029.html" LinkGroup="AvioTravelling">Register Method {AvioTravelling.WebApiConfig}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.BundleConfig.RegisterBundles" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000016.html" LinkGroup="AvioTravelling">RegisterBundles Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.FilterConfig.RegisterGlobalFilters" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000018.html" LinkGroup="AvioTravelling">RegisterGlobalFilters Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.RouteConfig.RegisterRoutes" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000025.html" LinkGroup="AvioTravelling">RegisterRoutes Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.RegisterViewModel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000090.html" LinkGroup="AvioTravelling">RegisterViewModel Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.VerifyCodeViewModel.RememberBrowser" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000088.html" LinkGroup="AvioTravelling">RememberBrowser Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.LoginViewModel.RememberMe" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000008F.html" LinkGroup="AvioTravelling">RememberMe Property {AvioTravelling.Models.LoginViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.SendCodeViewModel.RememberMe" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000083.html" LinkGroup="AvioTravelling">RememberMe Property {AvioTravelling.Models.SendCodeViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.VerifyCodeViewModel.RememberMe" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000089.html" LinkGroup="AvioTravelling">RememberMe Property {AvioTravelling.Models.VerifyCodeViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.ManageController.RemoveLogin" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000057.html" LinkGroup="AvioTravelling">RemoveLogin Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.ManageController.RemovePhoneNumber" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000005E.html" LinkGroup="AvioTravelling">RemovePhoneNumber Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.AccountController.ResetPassword" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000003B_overloads--.html" LinkGroup="AvioTravelling">ResetPassword Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.AccountController.ResetPassword" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000003A_overloads--.html" LinkGroup="AvioTravelling">ResetPassword Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.AccountController.ResetPasswordConfirmation" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000003C.html" LinkGroup="AvioTravelling">ResetPasswordConfirmation Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.ResetPasswordViewModel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000094.html" LinkGroup="AvioTravelling">ResetPasswordViewModel Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.ExternalLoginListViewModel.ReturnUrl" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000007E.html" LinkGroup="AvioTravelling">ReturnUrl Property {AvioTravelling.Models.ExternalLoginListViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.SendCodeViewModel.ReturnUrl" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000082.html" LinkGroup="AvioTravelling">ReturnUrl Property {AvioTravelling.Models.SendCodeViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.VerifyCodeViewModel.ReturnUrl" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000087.html" LinkGroup="AvioTravelling">ReturnUrl Property {AvioTravelling.Models.VerifyCodeViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.RouteConfig" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000024.html" LinkGroup="AvioTravelling">RouteConfig Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.ConfigureTwoFactorViewModel.SelectedProvider" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000CD.html" LinkGroup="AvioTravelling">SelectedProvider Property {AvioTravelling.Models.ConfigureTwoFactorViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.SendCodeViewModel.SelectedProvider" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000080.html" LinkGroup="AvioTravelling">SelectedProvider Property {AvioTravelling.Models.SendCodeViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.EmailService.SendAsync" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000001A.html" LinkGroup="AvioTravelling">SendAsync Method {AvioTravelling.EmailService}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.SmsService.SendAsync" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000001C.html" LinkGroup="AvioTravelling">SendAsync Method {AvioTravelling.SmsService}</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.AccountController.SendCode" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000003F_overloads--.html" LinkGroup="AvioTravelling">SendCode Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.AccountController.SendCode" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000003E_overloads--.html" LinkGroup="AvioTravelling">SendCode Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.SendCodeViewModel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000007F.html" LinkGroup="AvioTravelling">SendCodeViewModel Class</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.ManageController.SetPassword" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000061_overloads--.html" LinkGroup="AvioTravelling">SetPassword Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.ManageController.SetPassword" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000062_overloads--.html" LinkGroup="AvioTravelling">SetPassword Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.SetPasswordViewModel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000C0.html" LinkGroup="AvioTravelling">SetPasswordViewModel Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.Showplace" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000009B.html" LinkGroup="AvioTravelling">Showplace Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Api.GeoController.Showplace" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000010.html" LinkGroup="AvioTravelling">Showplace Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Validation.Validators.ShowplaceValidator" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000EA.html" LinkGroup="AvioTravelling">ShowplaceValidator Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Validation.Validators.ShowplaceValidator.ShowplaceValidator" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000EB.html" LinkGroup="AvioTravelling">ShowplaceValidator Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Api.GeoController.Showplaces" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000000F.html" LinkGroup="AvioTravelling">Showplaces Method {AvioTravelling.Api.GeoController}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.GeoController.Showplaces" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000048.html" LinkGroup="AvioTravelling">Showplaces Method {AvioTravelling.Controllers.GeoController}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.City.Showplaces" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000A2.html" LinkGroup="AvioTravelling">Showplaces Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.AccountController.SignInManager" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000002E.html" LinkGroup="AvioTravelling">SignInManager Property {AvioTravelling.Controllers.AccountController}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.ManageController.SignInManager" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000054.html" LinkGroup="AvioTravelling">SignInManager Property {AvioTravelling.Controllers.ManageController}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.SmsService" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000001B.html" LinkGroup="AvioTravelling">SmsService Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Startup" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000026.html" LinkGroup="AvioTravelling">Startup Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Validation.Error.Text" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000E1.html" LinkGroup="AvioTravelling">Text Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.Order.To" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000AD.html" LinkGroup="AvioTravelling">To Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.Order.Total" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000AB.html" LinkGroup="AvioTravelling">Total Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.Tour" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000D4.html" LinkGroup="AvioTravelling">Tour Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.IndexViewModel.TwoFactor" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000B9.html" LinkGroup="AvioTravelling">TwoFactor Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Api.GeoController.UpdateCity" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000006.html" LinkGroup="AvioTravelling">UpdateCity Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Api.GeoController.UpdateCountry" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000000C.html" LinkGroup="AvioTravelling">UpdateCountry Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Api.GeoController.UpdateShowplace" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000012.html" LinkGroup="AvioTravelling">UpdateShowplace Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.AccountController.UserManager" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000002F.html" LinkGroup="AvioTravelling">UserManager Property {AvioTravelling.Controllers.AccountController}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.ManageController.UserManager" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000055.html" LinkGroup="AvioTravelling">UserManager Property {AvioTravelling.Controllers.ManageController}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Validation.ValidationExtensions.Validate<T>" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000E4.html" LinkGroup="AvioTravelling">Validate<T> Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Validation.ValidationException" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000DD.html" LinkGroup="AvioTravelling">ValidationException Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Validation.ValidationException.ValidationException" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000DF.html" LinkGroup="AvioTravelling">ValidationException Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Validation.ValidationExtensions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000E3.html" LinkGroup="AvioTravelling">ValidationExtensions Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Validation.Validators" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000E5.html" LinkGroup="AvioTravelling">Validators Class</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.AccountController.VerifyCode" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000032_overloads--.html" LinkGroup="AvioTravelling">VerifyCode Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.AccountController.VerifyCode" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000033_overloads--.html" LinkGroup="AvioTravelling">VerifyCode Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.VerifyCodeViewModel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000084.html" LinkGroup="AvioTravelling">VerifyCodeViewModel Class</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.ManageController.VerifyPhoneNumber" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000005C_overloads--.html" LinkGroup="AvioTravelling">VerifyPhoneNumber Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Controllers.ManageController.VerifyPhoneNumber" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_000000000000005D_overloads--.html" LinkGroup="AvioTravelling">VerifyPhoneNumber Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.Models.VerifyPhoneNumberViewModel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_00000000000000C9.html" LinkGroup="AvioTravelling">VerifyPhoneNumberViewModel Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AvioTravelling.WebApiConfig" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AvioTravelling.chm::/topic_0000000000000028.html" LinkGroup="AvioTravelling">WebApiConfig Class</LItem>
+      </Links>
+   </Context>
+   
+
+</DynamicHelp>
+

@@ -13,6 +13,7 @@ namespace AvioTravelling.Validation
             where T : ModelBase
         {
             var results = validator.Validate(entity);
+
             if (results.Errors.Any())
             {
                 var errors = results.Errors.Select(x => new Error { Text = $"{x.PropertyName} : {x.ErrorMessage}", Id = Guid.NewGuid() });

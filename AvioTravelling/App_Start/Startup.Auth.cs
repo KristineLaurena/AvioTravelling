@@ -48,9 +48,9 @@ namespace AvioTravelling
             app.UseTwoFactorRememberBrowserCookie(DefaultAuthenticationTypes.TwoFactorRememberBrowserCookie);
 
             // Uncomment the following lines to enable logging in with third party login providers
-            //app.UseMicrosoftAccountAuthentication(
-            //    clientId: "",
-            //    clientSecret: "");
+            app.UseMicrosoftAccountAuthentication(
+              clientId: "000000004019145A",
+              clientSecret: "vm1pSdgBpWxKaaW91TZMBiTZdjnnNWOm");
 
             //app.UseTwitterAuthentication(
             //   consumerKey: "PIeO6qmADitMH5luA2H7HZWmm",
@@ -75,11 +75,11 @@ namespace AvioTravelling
                appId: "394009317463350",
                appSecret: "8de08e06b8f0c6fe0d502f35f5f53952");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "12194124873-42p1nfod2v0dlii1kh8v0d3rs099tr7a.apps.googleusercontent.com",
+                ClientSecret = "3rV-3HbkVF4-lNUXgllKNN7p"
+            });
         }
     }
 }

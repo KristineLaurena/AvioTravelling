@@ -25,6 +25,7 @@ namespace AvioTravelling.Api
             }
         }
 
+        [Obsolete]
         [HttpGet]
         public Country CountryModel()
         {

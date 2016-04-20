@@ -1,0 +1,258 @@
+﻿@{
+    ViewBag.Title = "Worlds Best Air Flight Company";
+}
+<section class="content-header"></section>
+@*<pre data-bind="text: ko.toJSON($root, null, 2)"></pre>*@
+<div id="page">
+    <section id="controls" class="content" style="min-height: 0px;">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box box-solid">
+                    <div class="box-body">
+                        <a href="#" class="btn btn-flat btn-info" data-bind="click: updateRecord"><span class="glyphicon glyphicon-floppy-saved"></span> Update City</a>
+                        <a href="#" class="btn btn-flat btn-primary btn-success" data-bind="click: saveRecord"><span class="glyphicon glyphicon-floppy-open"></span> Save City</a>
+                        <a href="#" class="btn btn-flatbtn-primary btn-danger" data-bind="click: deleteRecord"><span class="glyphicon glyphicon-remove"></span> Delete City</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content" data-bind="with: Record">
+        <div class="row">
+
+            <div class="col-md-6">
+                <div class="box box-solid">
+                    <div class="box-header with-border">
+
+                        <i class="glyphicon glyphicon-globe"></i>
+                        <h3 class="box-title">
+                            <input type="text" class="form-control" data-bind="value: Name" />
+                            @*<span data-bind="text: Name, click: editName, visible: !editingName()"> </span>*@
+                        </h3>
+                    </div>
+                    <!-- /.box-header -->
+                    <div class="box-body">
+                        <div class="form-group">
+                            <textarea data-updateHeight data-bind="value: Description" class="form-control"></textarea>
+                        </div>
+                        <br />
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon">Price Per Day $</span>
+                                <input type="text" class="form-control" data-bind="value: PricePerDay">
+                                <span class="input-group-addon">.00</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group" data-bind="with: Country">
+                                <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                                @*<select data-bind="options: $root.Countries,  optionsText: 'Name', optionsCaption: 'Please Select Country', value: Id, optionsValue: Id" class="form-control"></select>*@
+                                <select data-bind="options: $root.Countries,  optionsText: 'Name', optionsCaption: 'Please Select Country', optionsValue: 'Id', value: Id" class="form-control"></select>
+                            </div>
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="box box-solid">
+                    <div class="box-header with-border">
+                        <i class="glyphicon glyphicon-globe"></i>
+                        <h3 class="box-title">
+                            Photo
+
+                        </h3>
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-link"></i></span>
+                            <input type="url" class="form-control" data-bind="value: PictureLink" placeholder="Please enter picture link">
+                        </div>
+                    </div>
+                    <!-- /.box-header -->
+                    <div class="box-body">
+                        <img data-bind="attr: {'src': PictureLink}" class="img-thumbnail" />
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box box-solid">
+                    <div class="box-header with-border">
+                        <i class="glyphicon glyphicon-globe"></i>
+                        <h3 class="box-title">
+                            Showplaces
+                            @*<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                                Add New Place
+                            </button>*@
+                          
+
+                        </h3>
+                        <span class="pull-right"><button class="btn btn-info btn-flat" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-plus"></span> Add New </button></span>
+                    </div>
+                    <!-- /.box-header -->
+                    <div class="box-body" data-bind="foreach: { data: Showplaces, as: 'place' } ">
+                        <div class="col-md-3">
+                            <div class="box box-widget widget-user">
+                              
+                                <!-- Add the bg color to the header using any of the bg-* classes -->
+                                <div class="widget-user-header bg-black bg-img" data-bind="style: { backgroundImage: 'url(\'' + PictureLink() + '\')' }">
+                                    <span class="glyphicon glyphicon-remove-sign pull-right navigation-link" style="font-size:2em;" data-bind="click: $root.removeShowPlace"></span>
+                                    @*<h3 class="widget-user-username" data-bind="text: Name"></h3>*@
+                                    @*<h5 class="widget-user-desc" data-bind="text: Description"></h5>*@
+                                </div>
+                                <div class="box-footer">
+                                    <div class="row">
+                                        <div class="col-sm-12 border-right">
+                                            <div class="description-block">
+                                                <h3 class="widget-user-username" data-bind="text: Name"></h3>
+                                                <span class="description-text" data-bind="text: Description">SALES</span>
+                                            </div><!-- /.description-block -->
+                                        </div><!-- /.col -->
+                                    </div><!-- /.row -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Button trigger modal -->
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Add New Showplace</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <select class="form-control" data-bind="options: $root.Showplaces, optionsText: 'Name', value: $root.selectedShowplace, optionsCaption: 'Select Showplace'"></select>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" data-bind="click: $root.addNewShowPlace">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+@section Scripts{
+    <script type="text/javascript">
+
+        var updateRecord = "updateRecord";
+        var saveRecord = "saveRecord";
+        var deleteRecord = "deleteRecord";
+
+
+
+        function viewModel() {
+
+            self = this;
+            self.ContryModel = {
+                Id: "",
+                Name: ""
+            };
+
+            self.selectedShowplace = ko.observable();
+
+            self.Showplaces = ko.observableArray([]);
+            self.Countries = ko.observableArray([]);
+
+            self.editingDescr = ko.observable(false);
+            self.editDescr = function () { self.editingName(true); };
+
+            self.editingName = ko.observable(false);
+            self.editName = function () { self.editingName(true); };
+
+            self.updateRecord = function () {
+                App.PostData("@this.GeoApiUrl("UpdateCity")", self.Record, updateRecord);
+            };
+
+            self.saveRecord = function () {
+                App.PostData("@this.GeoApiUrl("UpdateCity")", self.Record, saveRecord, false);
+            };
+
+            self.addNewShowPlace = function () {
+                if (!!self.selectedShowplace()) {
+                    var unwrapped = ko.mapping.toJS(self.selectedShowplace());
+                    var copy = ko.mapping.fromJS(unwrapped);
+                    self.Record().Showplaces.push(copy);
+                }
+                
+                $('#myModal').modal('hide');
+            }
+
+            self.deleteRecord = function () {
+                App.PostData("@this.GeoApiUrl("DeleteCity")", self.Record, deleteRecord, false);
+            };
+
+            self.removeShowPlace = function () {
+                self.Record().Showplaces.remove(this);
+            }
+
+
+
+            self.Record = ko.observable();
+            self.refresh = function () {
+                var preLoad = [
+                    function (callback) {
+                        App.GetList("@this.GeoApiUrl("Countries")", function (data) {
+                            self.Countries(data);
+                            callback(null);
+                        });
+                    },
+                    function (callback) {
+                         App.GetList("@this.GeoApiUrl("Showplaces")", function (data) {
+                             self.Showplaces(data);
+                             callback(null);
+                         });
+                     },
+                ];
+
+                async.parallel(preLoad, function () {
+                    App.LoadData("@this.GeoApiUrl("City")", true, self.wireUp, { id: "@ViewBag.EntityId" });
+                });
+
+            };
+
+            self.wireUp = function (data) {
+                var unwrp = ko.mapping.toJS(data);
+                if (!unwrp.Country) {
+                    data.Country = {
+                        Id: ko.observable(),
+                        Name: ko.observable()
+                    };
+                }
+                self.Record(data);
+            }
+
+            self.refresh();
+
+            $(document).on("recordUpdated", function (evt, params) {
+                if (params.action == updateRecord) {
+                    self.refresh();
+                }
+
+                if (params.action == saveRecord) {
+                    App.Navigate("@this.GeoHtmlUrl("Cites")");
+                }
+
+                if (params.action == deleteRecord) {
+                    App.Navigate("@this.GeoHtmlUrl("Cites")");
+                }
+
+            });
+        }
+
+        ko.applyBindings(new viewModel(), $('#page')[0]);
+    </script>
+}
+

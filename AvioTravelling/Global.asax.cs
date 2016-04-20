@@ -15,9 +15,9 @@ namespace AvioTravelling
         {
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
-            GlobalConfiguration.Configure(WebApiConfig.Register);
+            GlobalConfiguration.Configure(WebApiConfig.Register);   // Added
             RouteConfig.RegisterRoutes(RouteTable.Routes);
-            GlobalConfiguration.Configuration.Filters.Add(new ErrorHandlingAttribute());
+            GlobalConfiguration.Configuration.Filters.Add(new ErrorHandlingAttribute()); // Added
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
     }
