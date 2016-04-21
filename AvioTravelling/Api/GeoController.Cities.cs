@@ -63,28 +63,17 @@ namespace AvioTravelling.Api
             {
                 using (var session = documentStore.OpenSession())
                 {
-                    // cityDb - no datubazes
                     var cityDb = session.Load<City>(city.Id);
 
-
-                    //tika izmantota biblioteka AutoMapper lai automatiski veiktu ipashibas update.
-                    //piem. :   cityDB.Name = city.Name => tas ir jaizpilda uz visam ipashibas,
-                    //ar rokam tas ir gruti, tapec tiek izmantots AutoMapper
                     var config = new MapperConfiguration(cfg => cfg.CreateMap<City, City>());
                     var mapper = config.CreateMapper();
 
-                    //mapper.Map ( no kur niemt dates,    kura objeta tos ierakstit)
                     mapper.Map(city, cityDb);
                    
-                    //Tapec ka select (Web Lappuse dropdown) var stradat tikai ar Id, bet Name ipashibas nemainas,
-                    // Vajag iznemt no datubazes entity, ar jauno Id, kura glabasises pareeizie dati ( Name u.t.t.) 
                     if (!string.IsNullOrEmpty(cityDb?.Country?.Id))
                     {
                         cityDb.Country = session.Load<Country>(cityDb.Country.Id);
                     }
-
-                    //FluentValidation
-                    // Izveido jaunus likumus, lai lamatos ka kads lauks ir tukshs
                     cityDb.Validate(new Validators.CityValidator());
 
                     session.SaveChanges();
