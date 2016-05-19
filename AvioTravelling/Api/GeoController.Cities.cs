@@ -56,6 +56,20 @@ namespace AvioTravelling.Api
             }
         }
 
+        [HttpGet]
+        public IEnumerable<City> CitiesByCode(string code)
+        {
+            using (var documentStore = Database.NewConnection())
+            {
+                using (var session = documentStore.OpenSession())
+                {
+                    return session.Query<City>()
+                        .Where(x => x.Country != null && x.Country.CountryCode.Equals(code))
+                        .OrderBy(x => x.Id).ToList();
+                }
+            }
+        }
+
         [HttpPost]
         public void UpdateCity(City city) //city Klasses objekts, no javaScript///   City - class, city - maingais
         {
@@ -74,6 +88,11 @@ namespace AvioTravelling.Api
                     {
                         cityDb.Country = session.Load<Country>(cityDb.Country.Id);
                     }
+                    else
+                    {
+                        cityDb.Country = null;
+                    }
+
                     cityDb.Validate(new Validators.CityValidator());
 
                     session.SaveChanges();

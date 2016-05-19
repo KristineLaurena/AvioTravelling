@@ -15,6 +15,20 @@
     background-size:cover;
 }
 
+/*.expandable {
+    display: block;
+    max-height: 40px;
+    transition: display, 5s, ease;
+    transition: max-height, 5s, ease;
+    overflow: hidden;
+}
+
+.expandable:hover {
+    display: initial;
+    max-height: initial;
+}*/
+
+
 
 .social {
     position: relative;

@@ -18,5 +18,21 @@ namespace AvioTravelling
                 DefaultDatabase = ConfigurationManager.AppSettings["DefaultDatabase"]
             }.Initialize();
         }
+
+        public static void AddQueryParams(this UriBuilder uriBuilder, params KeyValuePair<string, string>[] pairs)
+        {
+            var query = HttpUtility.ParseQueryString(uriBuilder.Query);
+            foreach (var pair in pairs)
+            {
+                query.Add(pair.Key, pair.Value);
+            }
+
+            uriBuilder.Query = query.ToString();
+        }
+
+        public static KeyValuePair<string, string> AddValue(this string key, object value)
+        {
+            return new KeyValuePair<string, string>(key, value.ToString());
+        }
     }
 }

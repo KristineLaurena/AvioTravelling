@@ -25,6 +25,25 @@ namespace AvioTravelling.Api
             }
         }
 
+        
+        [HttpGet]
+        public IEnumerable<Country> CountriesByCode(string code)
+        {
+            using (var documentStore = Database.NewConnection())
+            {
+                using (var session = documentStore.OpenSession())
+                {
+                    return session.Query<Country>()
+                        .Where(x => x.CountryCode.Equals(code))
+                        .OrderBy(x => x.Id).ToList();
+
+                    // "USA"
+                }
+            }
+        }
+
+
+
         [Obsolete]
         [HttpGet]
         public Country CountryModel()

@@ -48,9 +48,9 @@
                             <div class="input-group" data-bind="with: Country">
                                 <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
                                 @*<select data-bind="options: $root.Countries,  optionsText: 'Name', optionsCaption: 'Please Select Country', value: Id, optionsValue: Id" class="form-control"></select>*@
-                                <select data-bind="options: $root.Countries,  optionsText: 'Name', optionsCaption: 'Please Select Country', optionsValue: 'Id', value: Id" class="form-control"></select>
+                                <select data-bind="options: $root.Countries,  optionsText: 'Name', optionsCaption: 'Please Select Country', optionsValue: 'Id', value: Id, event: {change: $root.reloadBooks}" class="form-control"></select>
                             </div>
-                            
+
 
                         </div>
                     </div>
@@ -85,9 +85,9 @@
                         <h3 class="box-title">
                             Showplaces
                             @*<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-                                Add New Place
-                            </button>*@
-                          
+                                    Add New Place
+                                </button>*@
+
 
                         </h3>
                         <span class="pull-right"><button class="btn btn-info btn-flat" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-plus"></span> Add New </button></span>
@@ -96,7 +96,7 @@
                     <div class="box-body" data-bind="foreach: { data: Showplaces, as: 'place' } ">
                         <div class="col-md-3">
                             <div class="box box-widget widget-user">
-                              
+
                                 <!-- Add the bg color to the header using any of the bg-* classes -->
                                 <div class="widget-user-header bg-black bg-img" data-bind="style: { backgroundImage: 'url(\'' + PictureLink() + '\')' }">
                                     <span class="glyphicon glyphicon-remove-sign pull-right navigation-link" style="font-size:2em;" data-bind="click: $root.removeShowPlace"></span>
@@ -109,6 +109,67 @@
                                             <div class="description-block">
                                                 <h3 class="widget-user-username" data-bind="text: Name"></h3>
                                                 <span class="description-text" data-bind="text: Description">SALES</span>
+                                            </div><!-- /.description-block -->
+                                        </div><!-- /.col -->
+                                    </div><!-- /.row -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box box-solid">
+                    <div class="box-header with-border">
+                        <i class="glyphicon glyphicon-globe"></i>
+                        <h3 class="box-title">
+                            Books
+                            @*<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                                    Add New Place
+                                </button>*@
+
+
+                        </h3>
+
+                    </div>
+                    <!-- /.box-header -->
+                    <div class="box-body" data-bind="foreach: { data: $root.Books, as: 'place' } ">
+                        <div class="col-md-3">
+                            <div class="box box-widget widget-user">
+
+                                <!-- Add the bg color to the header using any of the bg-* classes -->
+                                <div class="widget-user-header bg-black bg-img" data-bind="style: { backgroundImage: 'url(\'' + image() + '\')' }">
+                                </div>
+                                <div class="box-footer">
+                                    <div class="row">
+                                        <div class="col-sm-12 border-right">
+                                            <!-- /.box -->
+                                            <div class="description-block">
+                                                <h3 class="widget-user-username" data-bind="text: name"></h3>
+
+                                                <dl class="dl-horizontal">
+                                                    <dt>Pages</dt>
+                                                    <dd data-bind="text: pages">A description list is perfect for defining terms.</dd>
+                                                    <dt>Available</dt>
+                                                    <dd data-bind="text: quantity">Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
+                                                </dl>
+                                                <ul class="list-group" data-bind="visible: quantity() == 0">
+                                                    <li class="list-group-item">Not Available</li>
+                                                </ul>
+
+                                                @*<span class="expandable" data-bind="text: description">SALES</span>*@
+                                                <p class="text-info" data-bind="visible: !expand(), text: SmallDescription() + '...'"></p>
+                                                <div class="collapse" data-bind="attr: {'id' : collapseId}">
+                                                    <div data-bind="text: description">
+
+                                                    </div>
+                                                </div>
+                                                <a role="button" data-toggle="collapse" aria-expanded="false" aria-controls="collapseExample" data-bind="attr: {'href' : '#' + collapseId()}, click: $root.expand, text: expand() ? 'Less' : 'More'">
+                                                    Link with href
+                                                </a>
+
                                             </div><!-- /.description-block -->
                                         </div><!-- /.col -->
                                     </div><!-- /.row -->
@@ -166,6 +227,8 @@
             self.Showplaces = ko.observableArray([]);
             self.Countries = ko.observableArray([]);
 
+            self.Books = ko.observableArray([]);
+
             self.editingDescr = ko.observable(false);
             self.editDescr = function () { self.editingName(true); };
 
@@ -186,7 +249,7 @@
                     var copy = ko.mapping.fromJS(unwrapped);
                     self.Record().Showplaces.push(copy);
                 }
-                
+
                 $('#myModal').modal('hide');
             }
 
@@ -198,7 +261,23 @@
                 self.Record().Showplaces.remove(this);
             }
 
-
+            self.LoadBooks = function () {
+                App.LoadData("@this.GeoApiUrl("Books")", false, function (data) {
+                    console.log('books', data);
+                    self.Books.removeAll();
+                    $.each(data, function (idx, book) {
+                        book.expand = false;
+                        book.collapseId = "collapse_" + idx;
+                        self.Books.push(ko.mapping.fromJS(book));
+                    });
+                }, { cityId: "@ViewBag.EntityId" });
+            }
+            //self.LoadBooks("US");
+            self.expand = function (data) {
+                data.expand(!data.expand());
+                console.log(ko.contextFor(data));
+                //window.scrollTo()
+            }
 
             self.Record = ko.observable();
             self.refresh = function () {
@@ -210,11 +289,11 @@
                         });
                     },
                     function (callback) {
-                         App.GetList("@this.GeoApiUrl("Showplaces")", function (data) {
-                             self.Showplaces(data);
-                             callback(null);
-                         });
-                     },
+                        App.GetList("@this.GeoApiUrl("Showplaces")", function (data) {
+                            self.Showplaces(data);
+                            callback(null);
+                        });
+                    },
                 ];
 
                 async.parallel(preLoad, function () {
@@ -223,14 +302,28 @@
 
             };
 
+            self.reloadBooks = function () {
+                self.LoadBooks();
+            }
+
             self.wireUp = function (data) {
                 var unwrp = ko.mapping.toJS(data);
+                console.log('wireUp', unwrp);
                 if (!unwrp.Country) {
                     data.Country = {
                         Id: ko.observable(),
-                        Name: ko.observable()
+                        Name: ko.observable(),
+                        ContryCode: ko.observable()
                     };
                 }
+                else {
+                    //console.log('data.Country.ContryCode', unwrp.Country.CountryCode);
+                    //if (!!unwrp.Country.CountryCode && unwrp.Country.CountryCode.length > 0) {
+                    //    self.LoadBooks(unwrp.Country.CountryCode);
+                    //};
+                    self.LoadBooks();
+                }
+
                 self.Record(data);
             }
 
@@ -253,6 +346,7 @@
         }
 
         ko.applyBindings(new viewModel(), $('#page')[0]);
+
     </script>
 }
 

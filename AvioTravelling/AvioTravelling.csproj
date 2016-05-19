@@ -73,6 +73,7 @@
       <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -191,6 +192,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApiClient.cs" />
+    <Compile Include="Api\GeoController.BooksIntegration.cs" />
     <Compile Include="Api\GeoController.Countires.cs" />
     <Compile Include="Api\GeoController.Showplaces.cs" />
     <Compile Include="Api\GeoController.Cities.cs" />
@@ -212,6 +215,7 @@
     </Compile>
     <Compile Include="HtmlHelper.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Book.cs" />
     <Compile Include="Models\Entites\Showplace.cs" />
     <Compile Include="Models\Entites\City.cs" />
     <Compile Include="Models\Entites\Country.cs" />

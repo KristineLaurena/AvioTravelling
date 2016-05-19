@@ -18,6 +18,7 @@ namespace AvioTravelling.Validation
             public CountryValidator()
             {
                 RuleFor(x => x.Name).NotEmpty();
+                RuleFor(x => x.CountryCode).NotEmpty();
             }
         }
 
